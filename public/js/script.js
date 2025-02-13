@@ -55,9 +55,12 @@ yes_button.addEventListener('click', () => {
     banner.src = "public/images/yes.gif";
     refreshBanner();
 
-    // Hide the question heading
-    let questionHeading = document.getElementById("question-heading");
-    questionHeading.style.display = "none"; // Hide the question text
+    // Hide both headings
+    let firstHeading = document.getElementById("first-heading");
+    let secondHeading = document.getElementById("second-heading");
+
+    firstHeading.style.display = "none";  // Hide the first heading
+    secondHeading.style.display = "none"; // Hide the second heading
 
     // Hide buttons div
     let buttons = document.getElementsByClassName('buttons')[0];

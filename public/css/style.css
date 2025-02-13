@@ -1,0 +1,157 @@
+body {
+    background-color: #f8e47d;
+    font-family: 'Comic Sans MS';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.answerButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: 'courier';
+    margin-bottom: 20px;
+    background-color:#333333;
+    color: #AEC6CF;
+    border-radius: 12px;
+    border: 2px solid #333333;
+}
+
+#no-button {
+    margin: 0 10px;
+    color: black;
+    background-color: #AEC6CF;
+    height: 40px !important;
+    width: auto;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+
+    p {
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+#yes-button {
+    margin: 0 10px;
+    color: black;
+    border: none;
+    background-color: #AEC6CF;
+    cursor: pointer;
+    height: 40px;
+
+    p {
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+/* Make responsive for mobile */
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.message {
+    display: block;               /* Ensures the message div takes full width */
+    text-align: center;           /* Centers text content and button */
+    margin-top: 20px;             /* Optional: Add spacing above the message */
+}
+
+.message img {
+    display: block;               /* Ensures the image is treated as a block element */
+    margin: 0 auto;               /* Centers the image horizontally */
+    margin-bottom: 20px;          /* Optional: Adds space below the image */
+}
+
+.banner-gif {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+    img {
+        width: auto;
+        height: 250px;
+    }
+}
+
+.language-selector {
+    margin-top: 30px;
+    position: unset;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.language-selector label {
+    margin-right: 10px;
+}
+
+.language-selector select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.creator {
+    text-decoration: none;
+    color: #333;
+}
+
+.creator:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+.creator:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+/* CSS For Mobile */
+@media (max-width: 768px) {
+    .language-selector {
+        position: unset;
+        margin-top: 30px;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+
+
+

@@ -1,5 +1,5 @@
 body {
-    background-color: #f8e47d;
+    background-color: #ffc5d3;
     font-family: 'Comic Sans MS';
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ body {
 #no-button {
     margin: 0 10px;
     color: black;
-    background-color: #AEC6CF;
+    background-color: #ff69b4;
     height: 40px !important;
     width: auto;
     border: none;
@@ -51,7 +51,7 @@ body {
     margin: 0 10px;
     color: black;
     border: none;
-    background-color: #AEC6CF;
+    background-color: #ff69b4;
     cursor: pointer;
     height: 40px;
 
